@@ -1,11 +1,11 @@
 version: "3"
 services:
-  kafka-test:
-    image: python:2.7
-    networks:
-      - kfk-net
-    depends_on:
-      - kafka
+  # kafka-test:
+  #   image: python:2.7
+  #   networks:
+  #     - kfk-net
+  #   depends_on:
+  #     - kafka
 
   zookeeper:
     image: confluentinc/cp-zookeeper:latest
